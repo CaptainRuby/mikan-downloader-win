@@ -10,7 +10,7 @@
   <a href="#从源码运行">从源码运行</a>
 </p>
 
-Mikan下载助手是一款面向 Windows 的本地桌面工具。它定时读取你的 [蜜柑计划](https://mikanani.me/) RSS，在发现新条目后获取 `.torrent` 文件并静默提交到 [BitComet](https://www.bitcomet.com/en/downloads)，同时在一个界面里跟踪进度、处理失败任务和管理已提交的下载。
+Mikan下载助手是一款面向 Windows 的非官方本地桌面工具。它定时读取你的 [蜜柑计划](https://mikanani.me/) RSS，在发现新条目后获取 `.torrent` 文件并静默提交到 [BitComet](https://www.bitcomet.com/en/downloads)，同时在一个界面里跟踪进度、处理失败任务和管理已提交的下载。
 
 > [!IMPORTANT]
 > 本项目不提供或托管任何内容。请只订阅、下载和分享你有权访问的内容，并妥善保管 RSS 地址中的个人 token。
