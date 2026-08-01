@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">Mikan下载助手</title>
+  <desc id="desc">自动追踪 Mikan RSS、获取种子并提交到 BitComet 的 Windows 桌面工具。</desc>
+
+  <defs>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffb13b"/>
+      <stop offset="1" stop-color="#ff6b00"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8abd36"/>
+      <stop offset="1" stop-color="#4f8f1f"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0L8 4L0 8Z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="378" rx="28" fill="#fff8ee" stroke="#f4e7d6" stroke-width="2"/>
+  <path d="M0 28A28 28 0 0 1 28 0H86V380H28A28 28 0 0 1 0 352Z" fill="url(#orange)"/>
+
+  <g transform="translate(132 62)">
+    <text x="0" y="0" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" font-weight="700" letter-spacing="2">WINDOWS · RSS AUTOMATION</text>
+    <text x="0" y="82" fill="#172033" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="64" font-weight="800">Mikan下载助手</text>
+    <text x="2" y="132" fill="#475569" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="25">追踪蜜柑订阅，自动把新条目提交到 BitComet</text>
+
+    <g transform="translate(0 182)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="700">
+      <rect x="0" y="0" width="126" height="42" rx="21" fill="#172033"/>
+      <text x="63" y="27" text-anchor="middle" fill="#ffffff">TAURI 2</text>
+      <rect x="140" y="0" width="180" height="42" rx="21" fill="#e8f1ff" stroke="#c6dcff"/>
+      <text x="230" y="27" text-anchor="middle" fill="#2563eb">REACT + RUST</text>
+      <rect x="334" y="0" width="210" height="42" rx="21" fill="#f0f7df" stroke="#d8e9b8"/>
+      <text x="439" y="27" text-anchor="middle" fill="#4f7f1f">BITCOMET &gt; 2.09</text>
+    </g>
+  </g>
+
+  <g transform="translate(756 42)">
+    <rect x="0" y="0" width="388" height="296" rx="22" fill="#ffffff" stroke="#dce3ec" stroke-width="2"/>
+    <text x="28" y="42" fill="#172033" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="800">从订阅到下载</text>
+    <circle cx="342" cy="34" r="8" fill="#35a853"/>
+    <text x="326" y="68" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" text-anchor="end">LOCAL</text>
+
+    <g transform="translate(26 90)">
+      <circle cx="34" cy="34" r="34" fill="#fff1db" stroke="#ffad32" stroke-width="2"/>
+      <circle cx="34" cy="34" r="20" fill="none" stroke="url(#orange)" stroke-width="8" stroke-dasharray="13 6"/>
+      <circle cx="34" cy="34" r="5" fill="#ff7900"/>
+      <text x="84" y="27" fill="#172033" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="750">Mikan RSS</text>
+      <text x="84" y="52" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="17">发现订阅更新</text>
+    </g>
+
+    <path d="M60 164V188" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <g transform="translate(26 196)">
+      <rect x="0" y="0" width="154" height="64" rx="13" fill="#eef4ff" stroke="#c8dbff"/>
+      <path d="M22 18H37L46 27V47H22Z" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+      <path d="M37 18V28H46" fill="none" stroke="#2563eb" stroke-width="2"/>
+      <text x="58" y="26" fill="#172033" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="700">.torrent</text>
+      <text x="58" y="48" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="15">本地缓存</text>
+    </g>
+
+    <path d="M188 228H216" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <g transform="translate(224 196)">
+      <rect x="0" y="0" width="138" height="64" rx="13" fill="#eff8e2" stroke="#d2e7ad"/>
+      <path d="M22 34L31 43L48 23" fill="none" stroke="#5e9425" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="60" y="26" fill="#172033" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="750">BitComet</text>
+      <text x="60" y="48" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="15">静默提交</text>
+    </g>
+  </g>
+
+</svg>

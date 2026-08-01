@@ -1,0 +1,33 @@
+{
+  "name": "mikan-rss-downloader",
+  "version": "1.6.6",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tauri dev",
+    "dev:web": "vite --host 127.0.0.1",
+    "build": "tauri build",
+    "build:web": "vite build",
+    "test": "npm run typecheck && cargo test --manifest-path src-tauri/Cargo.toml",
+    "typecheck": "tsc --noEmit",
+    "release": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-release.ps1"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.11.1",
+    "lucide-react": "^0.468.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.11.4",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.2",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.7"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

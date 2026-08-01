@@ -1,0 +1,49 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Mikan下载助手",
+  "version": "1.6.6",
+  "identifier": "com.captainruby.mikan-downloader",
+  "build": {
+    "beforeDevCommand": "npm run dev:web",
+    "devUrl": "http://127.0.0.1:5173",
+    "beforeBuildCommand": "npm run build:web",
+    "frontendDist": "../dist/public"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "Mikan下载助手",
+        "width": 1280,
+        "height": 900,
+        "minWidth": 960,
+        "minHeight": 600,
+        "center": true,
+        "visible": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis"],
+    "icon": [
+      "icons/icon.ico",
+      "icons/icon.png"
+    ],
+    "publisher": "CaptainRuby",
+    "copyright": "Copyright 2026 CaptainRuby",
+    "shortDescription": "自动追踪 Mikan RSS 并提交到 BitComet",
+    "windows": {
+      "nsis": {
+        "installMode": "perMachine",
+        "installerHooks": "./windows/nsis-hooks.nsh",
+        "template": "./windows/installer.nsi",
+        "languages": ["SimpChinese"],
+        "compression": "lzma"
+      }
+    }
+  }
+}

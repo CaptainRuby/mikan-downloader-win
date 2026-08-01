@@ -1,0 +1,27 @@
+# Dependencies and build outputs
+node_modules/
+dist/
+release/
+src-tauri/target/
+src-tauri/gen/
+
+# Runtime and user data
+src/server/data/
+*.log
+*.pid
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Local tools and editors
+.agents/
+.codex/
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+Desktop.ini
+Thumbs.db
