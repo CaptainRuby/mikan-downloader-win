@@ -147,6 +147,6 @@ assets/                  应用图标与 README 资源
 
 ## 许可证
 
-本仓库目前未包含开源许可证。如需使用、分发或二次发布源码，请先联系项目维护者。
+本项目采用 [MIT License](./LICENSE) 开源。
 
 <p align="center"><sub>Designed by CaptainRuby</sub></p>
